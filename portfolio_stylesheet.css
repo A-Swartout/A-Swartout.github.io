@@ -1,0 +1,214 @@
+/*body*/
+body {
+    margin: 0%;
+}
+
+/*navbar*/
+.navbar {
+    overflow: hidden;
+    background-color: rgb(98, 212, 75);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-radius: 25px;
+}
+
+
+/*navbar text*/
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*navbar hover effect*/
+.navbar a:hover {
+    background-color: rgb(88, 175, 6);
+    color: rgb(170, 169, 169);
+    font-weight: bold;
+}
+
+/*video*/
+#coding_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.video_text {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: rgb(131, 223, 113);
+    width: 100%;
+    padding: 20px;
+    margin-top: 30%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*about section*/
+.column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: rgb(98, 212, 75);
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1.9%;
+    height: 400px;
+    background-color: rgb(98, 212, 75);
+}
+
+.column_3 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: rgb(98, 212, 75)
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*heading 1*/
+h1 {
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 3%;
+    color: #1a1a1a;
+}
+
+/*paragraph elements*/
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*center align elements*/
+center {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*anchor elements*/
+a {
+    color: blue;
+}
+
+/*quotation elements*/
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*image elements*/
+img {
+    filter: grayscale(50%);
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*contact*/
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*submit button*/
+input[type=submit] {
+    background-color: rgb(0, 136, 255);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*hover submit button*/
+input[type=submit]:hover {
+    background-color: rgb(0, 103, 194);
+    color: grey;
+    font-weight: bold;
+    transform: scale(1.25);
+    transition: transform .5s;
+}
+
+/*form element*/
+form {
+    border-radius: 5px;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*center align element hover effect*/
+center:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+/*paragraph hover*/
+p:hover {
+    transition: transform 1s;
+    transform: scale(1.01);
+}
+
+
+/*image hover*/
+img:hover {
+    filter: grayscale(5%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+/*footer*/
+footer {
+    padding: 2%;
+    background-color: rgb(98, 212, 75);
+}
