@@ -5,7 +5,7 @@ $(document).ready(function(){
             event.preventDefault();
             var Link = this.Link;
             $('html, body').animate({
-                scrollTop: $(Link).offset().top
+                scrollTop: $(Link).offset().top;
             }, 2000, function(){
                 window.location.Link = Link;
             });
@@ -16,9 +16,9 @@ $(document).ready(function(){
 // Open and close contact form
 function openForm() {
     document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
+  }
+  
+  function closeForm() {
     document.getElementById("myForm").style.display = "none";
     this.Close();
-}
+  }
